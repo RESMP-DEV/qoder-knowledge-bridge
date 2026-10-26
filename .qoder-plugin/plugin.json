@@ -1,0 +1,19 @@
+{
+  "name": "qoder-knowledge-bridge",
+  "displayName": "Qoder Knowledge Bridge",
+  "version": "0.1.0",
+  "description": "Bridges Qoder Repo Wiki, knowledge cards, repo context, and QMind into Qoder subagents and external coding agents such as Codex.",
+  "author": {
+    "name": "Kearm"
+  },
+  "keywords": [
+    "qoder-plugin",
+    "knowledge",
+    "repo-wiki",
+    "codex",
+    "agents"
+  ],
+  "rules": "./rules/",
+  "hooks": "./hooks/hooks.json",
+  "repository": "https://github.com/RESMP-DEV/qoder-knowledge-bridge"
+}
