@@ -3,6 +3,7 @@
   "displayName": "Qoder Knowledge Bridge",
   "version": "0.1.0",
   "description": "Bridges Qoder Repo Wiki, knowledge cards, repo context, and QMind into Qoder subagents and external coding agents such as Codex.",
+  "license": "MIT",
   "author": {
     "name": "Kearm"
   },

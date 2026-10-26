@@ -8,7 +8,7 @@ This repository owns the Qoder Knowledge Bridge plugin: the `knowledge-scout` an
 
 The plugin intentionally ships no skills. Do not add a `skills/` directory or a `skills` manifest field. The capability is delivered through `agents/`, `rules/`, `hooks/`, and `qkb`.
 
-The canonical repository is `RESMP-DEV/qoder-knowledge-bridge`, private by default. Do not change visibility without explicit user approval. If it becomes public, add a license and re-audit for personal data.
+The canonical repository is `RESMP-DEV/qoder-knowledge-bridge` and is public under the MIT license. Keep it free of secrets, credentials, personal data, knowledge data, and runtime state. Visibility changes require explicit user approval.
 
 Global machine instructions in `~/AGENTS.md` remain authoritative. This file adds repository-specific scope, contracts, and verification. Read `README.md` first for usage and `CONNECTORS.md` for setup and troubleshooting.
 

@@ -134,3 +134,7 @@ Validated on 2026-10-25:
 - Hook simulations: SessionStart context, PostToolUse provenance JSONL, and Stop summary/stale detection all behave as documented.
 
 See [CONNECTORS.md](CONNECTORS.md) for setup and troubleshooting.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
