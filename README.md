@@ -2,6 +2,8 @@
 
 Bridges Qoder's local knowledge into Qoder subagents and external coding agents such as Codex. It ships **no skills** by design: the capability is delivered through two agents, two rule files, three hooks, and a read-only CLI connector.
 
+Repository standards for agents: [AGENTS.md](AGENTS.md). Kilo review guidance: [REVIEW.md](REVIEW.md).
+
 ## What it does
 
 | Surface | Purpose |
