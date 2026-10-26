@@ -42,7 +42,7 @@ Run these from the repository root before claiming a change complete:
 - CLI smoke: `qkb --version`, `qkb projects`, and either `qkb context --task "..." --project <repo>` on a repo with a generated knowledge base or the documented no-KB path. Quote exact output in the change record.
 - Hook smoke: pipe representative SessionStart, PostToolUse, and Stop JSON into `scripts/session_index.py`, `scripts/provenance_hook.py`, and `scripts/stop_summary.py` with `QODER_PLUGIN_DATA` set to a temporary directory. Confirm valid JSON, a provenance entry, a Stop summary, and no output when `stop_hook_active` is true.
 - Read-only proof: attempt `CREATE TABLE` through `qkb_core.connect_ro` on a disposable copy and confirm the database rejects the write.
-- Hygiene: no `__pycache__`, `.pyc`, or `.DS_Store` files; no `/Users/` paths in plugin content; `git diff --check` is clean.
+- Hygiene: no `__pycache__`, `.pyc`, or `.DS_Store` files; no absolute home-directory paths in plugin content; `git diff --check` is clean.
 
 Do not add GitHub Actions. Run checks locally and record commands and results in the pull request or a durable receipt.
 
